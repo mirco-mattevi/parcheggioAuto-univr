@@ -1,0 +1,139 @@
+.model 0
+.outputs O
+
+.model 00
+.outputs O1 O0
+.names O1
+.names O0
+
+.model 01
+.outputs O1 O0
+.names O1
+.names O0
+1
+
+.model 10
+.outputs O1 O0
+.names O1
+1
+.names O0
+
+.model 00000
+.outputs O4 O3 O2 O1 O0
+.names O4
+.names O3
+.names O2
+.names O1
+.names O0
+
+.model 11000
+.outputs O4 O3 O2 O1 O0
+.names O4
+1
+.names O3
+1
+.names O2
+.names O1
+.names O0
+
+.model 11111
+.outputs O4 O3 O2 O1 O0
+.names O4
+1
+.names O3
+1
+.names O2
+1
+.names O1
+1
+.names O0
+1
+
+.model 00001
+.outputs O4 O3 O2 O1 O0
+.names O4
+.names O3
+.names O2
+.names O1
+.names O0
+1
+
+.model 000000
+.outputs O5 O4 O3 O2 O1 O0
+.names O5
+.names O4
+.names O3
+.names O2
+.names O1
+.names O0
+
+.model 000001
+.outputs O5 O4 O3 O2 O1 O0
+.names O5
+.names O4
+.names O3
+.names O2
+.names O1
+.names O0
+1
+
+.model 000010
+.outputs O5 O4 O3 O2 O1 O0
+.names O5
+.names O4
+.names O3
+.names O2
+.names O1
+1
+.names O0
+
+.model 000100
+.outputs O5 O4 O3 O2 O1 O0
+.names O5
+.names O4
+.names O3
+.names O2
+1
+.names O1
+.names O0
+
+.model 001000
+.outputs O5 O4 O3 O2 O1 O0
+.names O5
+.names O4
+.names O3
+1
+.names O2
+.names O1
+.names O0
+
+.model 010000
+.outputs O5 O4 O3 O2 O1 O0
+.names O5
+.names O4
+1
+.names O3
+.names O2
+.names O1
+.names O0
+
+.model 100000
+.outputs O5 O4 O3 O2 O1 O0
+.names O5
+1
+.names O4
+.names O3
+.names O2
+.names O1
+.names O0
+
+.model 011000
+.outputs O5 O4 O3 O2 O1 O0
+.names O5
+.names O4
+1
+.names O3
+1
+.names O2
+.names O1
+.names O0

@@ -1,0 +1,10 @@
+.model mux5(2)
+.inputs A4 A3 A2 A1 A0 B4 B3 B2 B1 B0 C4 C3 C2 C1 C0 D4 D3 D2 D1 D0 S1 S0
+.outputs O4 O3 O2 O1 O0
+.subckt mux(2) A=A4 B=B4 C=C4 D=D4 S1=S1 S0=S0 O=O4
+.subckt mux(2) A=A3 B=B3 C=C3 D=D3 S1=S1 S0=S0 O=O3
+.subckt mux(2) A=A2 B=B2 C=C2 D=D2 S1=S1 S0=S0 O=O2
+.subckt mux(2) A=A1 B=B1 C=C1 D=D1 S1=S1 S0=S0 O=O1
+.subckt mux(2) A=A0 B=B0 C=C0 D=D0 S1=S1 S0=S0 O=O0
+.search mux(2).blif
+.end

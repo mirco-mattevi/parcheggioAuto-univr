@@ -1,0 +1,12 @@
+.model mux6
+.inputs A5 A4 A3 A2 A1 A0 B5 B4 B3 B2 B1 B0 S
+.outputs O5 O4 O3 O2 O1 O0
+.subckt mux A=A5 B=B5 S=S O=O5
+.subckt mux A=A4 B=B4 S=S O=O4
+.subckt mux A=A3 B=B3 S=S O=O3
+.subckt mux A=A2 B=B2 S=S O=O2
+.subckt mux A=A1 B=B1 S=S O=O1
+.subckt mux A=A0 B=B0 S=S O=O0
+
+.search mux.blif
+.end
